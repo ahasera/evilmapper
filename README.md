@@ -37,17 +37,6 @@ This tool is intended for network security research and should not be used for i
 - Discover a Niagara Fox device: `nmap -Pn -sT -p1911,4911 --script fox-info <target>`
 - Discover a PCWorx device: `nmap -Pn -sT -p1962 --script pcworx-info <target>`
 
-## Generating Reports
-- Normal output to filename: `nmap -oN [filename] <target>`
-- Send results to XML format: `nmap -oN [filename] -oX <filename.xml> <target>`
-- Output to all formats (Normal, XML & grep): `nmap -oA [filename] <target>`
-- Increase verbosity and debugging levels: `nmap -v3 -d2 -oN [filename] <target>`
-- Display host and port state reasons: `nmap --reason <target>`
-- Print periodic timing stats: `nmap -Pn <target> --stats-every 10s`
-- Trace packets and data sent and received: `nmap -T4 --packet-trace <target>`
-- Show open ports only: `nmap --open <target>`
-- List interfaces and routes: `nmap --iflist`
-
 ## Host Discovery and Identification
 - Basic scanning: `nmap <target>`
 - Launch a ping scan (subnet): `nmap -sn <target>`, e.g., `nmap -sn 192.168.1.0/24`
