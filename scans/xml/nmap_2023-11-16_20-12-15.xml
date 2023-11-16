@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Nov 16 20:12:15 2023 as: nmap -Pn -sn -PA -oX scans/xml/nmap_2023-11-16_20-12-15.xml 192.168.1.1 192.168.1.1 -->
+<nmaprun scanner="nmap" args="nmap -Pn -sn -PA -oX scans/xml/nmap_2023-11-16_20-12-15.xml 192.168.1.1 192.168.1.1" start="1700161935" startstr="Thu Nov 16 20:12:15 2023" version="7.80" xmloutputversion="1.04">
+<verbose level="0"/>
+<debugging level="0"/>
+<host><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="192.168.1.1" addrtype="ipv4"/>
+<hostnames>
+<hostname name="lan.home" type="PTR"/>
+</hostnames>
+</host>
+<host><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="192.168.1.1" addrtype="ipv4"/>
+<hostnames>
+<hostname name="lan.home" type="PTR"/>
+</hostnames>
+</host>
+<runstats><finished time="1700161935" timestr="Thu Nov 16 20:12:15 2023" elapsed="0.03" summary="Nmap done at Thu Nov 16 20:12:15 2023; 2 IP addresses (2 hosts up) scanned in 0.03 seconds" exit="success"/><hosts up="2" down="0" total="2"/>
+</runstats>
+</nmaprun>
