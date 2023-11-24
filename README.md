@@ -41,9 +41,9 @@ This script is meant to be updated to add features, such as statistics, CVE repo
 └── src
     └── nmap_options.txt
 ```
-* `scans` directory is where reports are both stored as XML and HTML outputs.
-* `scans/html/server/server.py` is the python script that serves the HTTP server with native module `http.server`
-* `src` is the directory where main script will make checks or provide data.
+* [`scans`](./scans) directory is where reports are both stored as XML and HTML outputs.
+* [`scans/html/server/server.py`](./scans/html/server/server.py) is the python script that serves the HTTP server with native module `http.server`
+* [`src`](./src) is the directory where main script will make checks or provide data.
 
 ## Usage
 
