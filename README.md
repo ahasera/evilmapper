@@ -1,4 +1,3 @@
-```
 ▄███▄      ▄   ▄█ █    █▀▄▀█ ██   █ ▄▄  █ ▄▄  ▄███▄   █▄▄▄▄ 
 █▀   ▀      █  ██ █    █ █ █ █ █  █   █ █   █ █▀   ▀  █  ▄▀ 
 ██▄▄   █     █ ██ █    █ ▄ █ █▄▄█ █▀▀▀  █▀▀▀  ██▄▄    █▀▀▌  
@@ -6,7 +5,6 @@
 ▀███▀    █  █   ▐     ▀   █     █  █     █    ▀███▀     █   
           █▐             ▀     █    ▀     ▀            ▀    
           ▐                   ▀                             
-```
 
 `evilmapper` is a simple, yet powerful shell script that allows you to initiate various types of `nmap` scans and automatically generate web-readable reports. It provides an easy-to-use interface for running different scan types, including scans for web applications, databases, and ICS/SCADA systems. All of the scan types were found on nmap.org and on this great cheat sheet from Security Trails : https://securitytrails.com/blog/nmap-cheat-sheet. 
 
@@ -65,9 +63,6 @@ This script is meant to be updated to add features, such as statistics, CVE repo
 - `nmap`: The script uses `nmap` to perform the scans. Make sure `nmap` is installed on your system.
 - `xsltproc`: Used to convert the `nmap` XML output to HTML for viewing in the browser.
 
-## Disclaimer
-
-This tool is intended for network security research and should not be used for illegal activities. Always obtain proper authorization before performing scans.
 
 # Scanning types
 
@@ -172,3 +167,7 @@ This tool is intended for network security research and should not be used for i
 - Dump password hashes (MS SQL): `nmap -p1433 --script ms-sql-empty-password,ms-sql-dump-hashes<target>`
 - List databases (MySQL): `nmap -p3306 --script mysql-databases --script-args mysqluser=[user],mysqlpass=[password] <target>`
 - Brute-force MySQL passwords: `nmap -p3306 --script mysql-brute <target>`
+
+# Disclaimer
+
+This tool is intended for network security research and should not be used for illegal activities. Always obtain proper authorization before performing scans.
