@@ -4,6 +4,24 @@
 
 This script is meant to be updated to add features, such as statistics, CVE reports...
 
+## Table of Contents
+- [Features](#features)
+- [Usage](#usage)
+- [Requirements](#requirements)
+- [Disclaimer](#disclaimer)
+- [Scanning Types](#scanning-types)
+  - [ICS/SCADA Systems](#ics-scada-systems)
+  - [Host Discovery and Identification](#host-discovery-and-identification)
+  - [Version Detection](#version-detection)
+  - [Network and Port Scanning](#network-and-port-scanning)
+  - [Timing and Performance](#timing-and-performance)
+  - [Nmap Scripting Engine (NSE)](#nmap-scripting-engine-nse)
+  - [Scanning Web Servers](#scanning-web-servers)
+  - [Scanning Mail Servers](#scanning-mail-servers)
+  - [Scanning Databases](#scanning-databases)
+- [Contributing](#contributing)
+- [License](#license)
+
 ## Features
 
 - Multiple scan categories: Choose from a variety of scan categories to suit your needs.
