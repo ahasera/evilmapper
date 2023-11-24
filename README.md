@@ -1,10 +1,4 @@
-▄███▄      ▄   ▄█ █    █▀▄▀█ ██   █ ▄▄  █ ▄▄  ▄███▄   █▄▄▄▄ 
-█▀   ▀      █  ██ █    █ █ █ █ █  █   █ █   █ █▀   ▀  █  ▄▀ 
-██▄▄   █     █ ██ █    █ ▄ █ █▄▄█ █▀▀▀  █▀▀▀  ██▄▄    █▀▀▌  
-█▄   ▄▀ █    █ ▐█ ███▄ █   █ █  █ █     █     █▄   ▄▀ █  █  
-▀███▀    █  █   ▐     ▀   █     █  █     █    ▀███▀     █   
-          █▐             ▀     █    ▀     ▀            ▀    
-          ▐                   ▀                             
+# evilmapper                           
 
 `evilmapper` is a simple, yet powerful shell script that allows you to initiate various types of `nmap` scans and automatically generate web-readable reports. It provides an easy-to-use interface for running different scan types, including scans for web applications, databases, and ICS/SCADA systems. All of the scan types were found on nmap.org and on this great cheat sheet from Security Trails : https://securitytrails.com/blog/nmap-cheat-sheet. 
 
