@@ -29,7 +29,7 @@ This script is meant to be updated to add features, such as statistics, CVE repo
 - Browser view and report saves: View your scan results in the browser for easy reading and analysis, with files saved under html and xml format.
 
 ### Project tree
-
+```
 ├── evilmapper.sh
 ├── LICENSE
 ├── README.md
@@ -40,7 +40,7 @@ This script is meant to be updated to add features, such as statistics, CVE repo
 │   └── xml
 └── src
     └── nmap_options.txt
-
+```
 * `scans` directory is where reports are both stored as XML and HTML outputs.
 * `scans/html/server/server.py` is the python script that serves the HTTP server with native module `http.server`
 * `src` is the directory where main script will make checks or provide data.

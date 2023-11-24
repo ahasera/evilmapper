@@ -591,5 +591,3 @@ pkill "$PYTHON_SERVER_PID" > /dev/null
 trap stop_python_server EXIT
 trap stop_python_server SIGINT
 trap 'cleanup_function' EXIT SIGINT SIGTERM
-
-
