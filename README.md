@@ -1,6 +1,6 @@
 # evilmapper
 
-`evilmapper` is a simple, yet powerful shell script that allows you to initiate various types of `nmap` scans. It provides an easy-to-use interface for running different scan types, including scans for web applications, databases, and ICS/SCADA systems. All of the scan types were found on nmap.org and on this great cheat sheet from Security Trails : https://securitytrails.com/blog/nmap-cheat-sheet. 
+`evilmapper` is a simple, yet powerful shell script that allows you to initiate various types of `nmap` scans and automatically generate web-readable reports. It provides an easy-to-use interface for running different scan types, including scans for web applications, databases, and ICS/SCADA systems. All of the scan types were found on nmap.org and on this great cheat sheet from Security Trails : https://securitytrails.com/blog/nmap-cheat-sheet. 
 
 This script is meant to be updated to add features, such as statistics, CVE reports...
 
@@ -28,6 +28,22 @@ This script is meant to be updated to add features, such as statistics, CVE repo
 - Top commands: Run the most commonly used `nmap` commands with a single selection.
 - Browser view and report saves: View your scan results in the browser for easy reading and analysis, with files saved under html and xml format.
 
+### Project tree
+
+├── evilmapper.sh
+├── LICENSE
+├── README.md
+├── scans
+│   ├── html
+│   │   └── server
+│   │       └── server.py
+│   └── xml
+└── src
+    └── nmap_options.txt
+
+* `scans` directory is where reports are both stored as XML and HTML outputs.
+* `scans/html/server/server.py` is the python script that serves the HTTP server with native module `http.server`
+* `src` is the directory where main script will make checks or provide data.
 
 ## Usage
 
